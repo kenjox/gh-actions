@@ -1,0 +1,15 @@
+name: Using hosted job
+
+on: [push]
+
+jobs:
+  run-greeting-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: javascript-greet-action
+        id: greet
+        uses: actions/hello-world-javascript-action@v1
+        with:
+          who-to-greet: 'Kennedy'
+      - name: printing-time-of-greeting
+        run: echo "{{steps.greet.outpus.time}}"
