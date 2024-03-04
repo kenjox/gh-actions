@@ -16,4 +16,4 @@ jobs:
 
       - name: Install Dependencies
         working-directory: 03-using-actions/vite-project
-        run: npm install
+        run: npm ci
