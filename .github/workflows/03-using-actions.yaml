@@ -15,5 +15,5 @@ jobs:
           node-version: '20.x'
 
       - name: Install Dependencies
-        working-directory: 03-using-actions/vite-project
+        working-directory: '03-using-actions/vite-project'
         run: npm ci
