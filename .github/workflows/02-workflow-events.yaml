@@ -8,6 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Show the trigger
-        run: echo ${{github.event_name}}
-      - name: Say hello
-        run: echo "Hello world!"
+        run: echo "Event name ${{github.event_name}}"
