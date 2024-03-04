@@ -1,4 +1,4 @@
-name: Building blocks
+name: 01 Building blocks
 
 on: [workflow_dispatch]
 
@@ -11,9 +11,9 @@ jobs:
   echo-goodbye:
     runs-on: ubuntu-latest
     steps:
-      - name: Successfully processed step
+      - name: Failed step
         run: |
-          echo 'I finished successfully!'
-          print.exit(0)
+          echo 'I will fail'
+          exit 1
       - name: Say goodbye
         run: echo 'Goodbye!'
