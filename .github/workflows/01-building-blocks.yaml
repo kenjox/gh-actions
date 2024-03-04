@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: Successfully processed step
         run: |
-          echo "I finished successfully!"
+          echo 'I finished successfully!'
           print.exit(0)
       - name: Say goodbye
         run: echo 'Goodbye!'
