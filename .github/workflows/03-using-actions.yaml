@@ -11,5 +11,5 @@ jobs:
 
       - name: Printing Folders
         run: |
-          cd 03-using-actions
+          cd 03-using-actions/vite-project
           ls
