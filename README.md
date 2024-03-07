@@ -1,2 +1,2 @@
 # gh-actions
-Trying out github actions
+Learning about github actions
